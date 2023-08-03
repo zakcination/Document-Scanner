@@ -91,7 +91,7 @@ def initializeTrackbars(intialTracbarVals=0):
 
 
 def valTrackbars():
-    Treshold1 = cv2.getTrackbarPos("Treshold1", "Trackbars")
-    Treshold2 = cv2.getTrackbarPos("Treshold2", "Trackbars")
-    src = Treshold1, Treshold2
+    Threshold1 = cv2.getTrackbarPos("Threshold1", "Trackbars")
+    Threshold2 = cv2.getTrackbarPos("Threshold2", "Trackbars")
+    src = Threshold1, Threshold2
     return src
